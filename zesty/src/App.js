@@ -1,4 +1,4 @@
-//import './App.css';
+import './styles.css';
 import React from "react"
 
 //function definition for App component
@@ -14,13 +14,20 @@ import React from "react"
 const App = () => {
 
 
-  const building = "TPL building"
+
   return (
     <div className = "App">
-      <h1>Hello SoHo</h1>
-      <h2>What will we build</h2>
-      <p>{building}</p>
+      <div className="title">
+        <h1>Zesty</h1>
+        <h2>
+          A photography project<br/>
+          by Ella Fieldling
+        </h2>
+      </div>
 
+      <div className="image-container">
+        <img alt="" src=""/>
+      </div>
 
     </div>
 
