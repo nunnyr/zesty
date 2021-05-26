@@ -25,7 +25,22 @@ const images = [cabbage, mango, fig, kiss, peach, avocado]
 const App = () => {
 
   const [currentImage, setCurrentImage] = useState(0);
-  // console.log(images)
+
+  const handleClick = () => {
+    const length = images.length - 1
+
+    setCurrentImage((currentImage) => {
+      if(currentImage < length) {
+        //do something here
+        return currentImage + 1
+      } else {
+        //do something else
+        return 0;
+      }
+    })
+  }
+
+ 
 
 
   return (
@@ -36,10 +51,12 @@ const App = () => {
           A photography project<br/>
           by Ella Fieldling
         </h2>
+        <button onClick={handleClick}>Click here</button>
+        <input type="text" name="example" autoComplete="off" onChange={handleClick}/>
       </div>
 
       <div className="image-container">
-        <img alt="" src={images[0]}/>
+        <img alt="" src={images[currentImage]} onClick={handleClick}/>
       </div>
 
     </div>
