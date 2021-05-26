@@ -10,6 +10,8 @@ import React from "react"
 //Lifecycle methods are a series of events that happen between the initialization
 //or creation or unmounting of a component.
 
+const images = []
+
 
 const App = () => {
 
