@@ -1,5 +1,5 @@
 import './styles.css';
-import React from "react"
+import React, {useState} from "react"
 import cabbage from './assets/image1.jpeg'
 import mango from './assets/image2.jpeg'
 import fig from './assets/image3.jpeg'
@@ -24,7 +24,8 @@ const images = [cabbage, mango, fig, kiss, peach, avocado]
 
 const App = () => {
 
-console.log(images)
+  const [currentImage, setCurrentImage] = useState(0);
+  // console.log(images)
 
 
   return (
