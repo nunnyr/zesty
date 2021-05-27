@@ -33,13 +33,7 @@ const App = () => {
     setCurrentImage((currentImage) => {
 
       return currentImage < length ? currentImage + 1 : 0
-      // if(currentImage < length) {
-      //   //do something here
-      //   return currentImage + 1
-      // } else {
-      //   //do something else
-      //   return 0;
-      // }
+
     })
   }
 
