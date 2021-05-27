@@ -24,6 +24,7 @@ const images = [cabbage, mango, fig, kiss, peach, avocado]
 
 const App = () => {
 
+        //state v    , function v
   const [currentImage, setCurrentImage] = useState(0);
 
   const handleClick = () => {
@@ -41,6 +42,7 @@ const App = () => {
       // }
     })
   }
+
 
  
 
