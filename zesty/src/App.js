@@ -20,6 +20,14 @@ import avocado from './assets/image6.jpeg'
 
 const images = [cabbage, mango, fig, kiss, peach, avocado]
 
+const Loading = () => (
+  <aside>
+    <div className="loading-bar"></div>
+      <label htmlFor="images-loaded">Loading all your favorite images...</label>
+      <progress id="images-loaded" max="100" value="50"></progress>
+  </aside>
+)
+
 
 
 const App = () => {
@@ -42,8 +50,8 @@ const App = () => {
 
 
   return (
-    <div className = "App">
-      <div className="title">
+    <section>
+      <header>
         <h1>Zesty</h1>
         <h2>
           A photography project<br/>
@@ -51,13 +59,17 @@ const App = () => {
         </h2>
         {/* <button onClick={handleClick}>Click here</button> */}
         {/* <input type="text" name="example" autoComplete="off" onChange={handleClick}/> */}
-      </div>
+      </header>
 
-      <div className="image-container">
+      <figure>
+        <Loading />
+        <figcaption>
+          {currentImage + 1} / {images.length}
+        </figcaption>
         <img alt="" src={images[currentImage]} onClick={handleClick}/>
-      </div>
+      </figure>
 
-    </div>
+    </section>
 
   )
 
