@@ -76,13 +76,23 @@ const App = () => {
       </header>
 
       <figure>
-        {numLoaded < images.length ? <Loading calculatedWidth={(numLoaded / images.length) / 100 }/> : null}
-        <Loading calculatedWidth={(numLoaded / images.length) * 100}/>
+        {numLoaded < images.length && (
+          <Loading calculatedWidth={(numLoaded / images.length) * 100}/>
+        )}
+        
         <figcaption>
           {currentImage + 1} / {images.length}
         </figcaption>
-      {images.map((imageURL) => (
-        <img alt="" key={imageURL} src={imageURL} onClick={handleClick} onLoad={handleImageLoad}/>
+      {images.map((imageURL, index) => (
+        <img 
+          alt="" 
+          key={imageURL} 
+          src={imageURL} 
+          onClick={handleClick} 
+          onLoad={handleImageLoad}
+          // style={{opacity: currentImage === index ? 1 : 0}}  
+          className={currentImage === index ? "display" : "hide"}
+      />
       ))}
 
 
