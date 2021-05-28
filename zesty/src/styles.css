@@ -111,3 +111,12 @@ progress[value]::-webkit-progress-value {
     background: #294910;
 
 }
+
+@media (max-width: 800px) {
+    section {
+        flex-direction: column;
+        
+
+    }
+
+}
