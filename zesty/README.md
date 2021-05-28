@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Zesty - photo gallery app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
+1. About
+2. Features
+3. Getting Started
+4. Stack
+5. Contributors
+6. Next Steps
 
-In the project directory, you can run:
+### About
 
-### `yarn start`
+Zesty is a react responsive photo gallery app. It renders images and produces a loading bar with slower wifi connection.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
+Users are able to see a caption for which image they are on as they click through.
+Users are able to view images across different screen sizes.
+Accessibility is present for screen readers.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Getting Started
+To use the app, users will open their terminal and run 
+1. ```npm start`` this will navigate them to their localhost:3000 and the server will run.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Stack
+1. React
+2. Semantic UI
+3. HTML + CSS
 
-### `yarn build`
+### Contributors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/nunnyr">
+        <img src="https://avatars2.githubusercontent.com/u/22527547?s=460&u=ad9c2d830938168f717cd28941b2f104c6677598&v=4" width="200px;" alt=""/><br/><sub><b>Nunny Reyes</b></sub>
+      </a><br />
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Code">👩🏻‍💻</a> 
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Documentation">📚</a> 
+      <a href="#ideas-nunny" title="Ideas, Planning, & Feedback">💡</a>            
+    </td>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  </tr>
+</table>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Next Steps
+1. Would like to include scraping data to produce other images for the gallery. 
