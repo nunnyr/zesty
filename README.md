@@ -11,7 +11,7 @@
 
 ### About
 
-Zesty is a react responsive photo gallery app. It renders images and produces a loading bar with slower wifi connection.
+Zesty is a react responsive photo gallery app.
 
 ### Features
 Users are able to see a caption for which image they are on as they click through.
