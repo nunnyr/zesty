@@ -57,7 +57,7 @@ img {
     height: 100vh;
     object-fit: cover;
     position: fixed;
-    width: 100%;
+    width: 50%;
     opacity: 0;
 }
 
